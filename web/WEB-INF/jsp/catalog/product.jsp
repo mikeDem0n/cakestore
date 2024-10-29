@@ -1,7 +1,7 @@
 <%@ include file="../common/top.jsp"%>
 
 <div id="BackLink">
-    <a href="categoryForm?categoryId=${sessionScope.category.categoryId}">返回${${sessionScope.category.name}}</a>
+    <a href="categoryForm?categoryId=${sessionScope.category.categoryId}">返回${sessionScope.category.name}}</a>
 </div>
 
 <div id="Catalog">
