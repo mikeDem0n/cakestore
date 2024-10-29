@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>帮助页面</title>
+  <link rel="StyleSheet" href="css/cakestore.css" type="text/css" media="screen"/> 
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('images/cake-background.jpg');
+      background-size: cover; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat; 
+    }
+  </style>
+</head>
+<body>
+  <div id="Content">
+    <h1>蛋糕商店演示</h1>
+    <p>
+      蛋糕商店演示是一个在线蛋糕店。像大多数电子商店一样，您可以浏览和搜索蛋糕目录，选择商品添加到购物车，修改购物车，并订购购物车中的蛋糕。您可以在不注册或登录应用程序的情况下执行许多这些操作。然而，在订购商品之前，您必须登录（签入）应用程序。要登录，您必须在应用程序中拥有一个帐户，该帐户是在您注册（注册）时创建的。
+    </p>
+
+    <ul>
+      <li><a href="#SigningUp">注册</a></li>
+      <li><a href="#SigningIn">登录</a></li>
+      <li><a href="#Catalog">浏览蛋糕目录</a></li>
+      <li><a href="#CatalogBrowsing">浏览目录</a></li>
+      <li><a href="#CatalogSearching">搜索目录</a></li>
+      <li><a href="#ShoppingCart">管理购物车</a></li>
+      <li><a href="#ShoppingCartAdd">添加和移除蛋糕</a></li>
+      <li><a href="#ShoppingCartUpdate">更新蛋糕数量</a></li>
+      <li><a href="#Ordering">订购蛋糕</a></li>
+      <li><a href="#OrderReview">查看订单</a></li>
+    </ul>
+
+    <h2><a id="SigningUp" name="SigningUp"></a>注册</h2>
+
+    <p>
+      要注册，请点击横幅右端的登录链接。接下来，点击结果页面中的新用户链接。在注册页面中，您需要提供用户标识符和密码等信息。这些信息用于识别您的帐户，登录时必须提供。
+    </p>
+
+    <h2><a id="SigningIn" name="SigningIn"></a>登录</h2>
+
+    <p>
+      您可以通过点击横幅右端的登录链接，填写用户标识符和密码，然后点击提交按钮来登录应用程序。
+    </p>
+
+    <p>
+      当您尝试下订单但尚未登录时，您也会被重定向到登录页面。一旦您登录后，可以通过点击横幅右端的购物车图标返回您的购物会话。
+    </p>
+
+    <h2><a id="Catalog" name="Catalog"></a>浏览蛋糕目录</h2>
+
+    <p>本节介绍如何浏览和搜索蛋糕目录。</p>
+
+    <h4><a id="CatalogBrowsing" name="CatalogBrowsing"></a>浏览目录</h4>
+
+    <p>
+      蛋糕店目录按以下层次结构组织：类别、产品、商品。
+    </p>
+
+    <p>
+      您可以通过点击主页左侧列中的类别名称或类别图片列出类别中的蛋糕。
+    </p>
+
+    <p>
+      一旦您选择了一个类别，蛋糕店将显示该类别中的蛋糕列表。选择一个蛋糕会显示商品列表及其价格。选择一个蛋糕项会显示该蛋糕的文字和视觉描述及库存数量。
+    </p>
+
+    <h4><a id="CatalogSearching" name="CatalogSearching"></a>搜索目录</h4>
+
+    <p>
+      您可以通过在横幅中间的搜索字段中输入蛋糕名称来搜索蛋糕。
+    </p>
+
+    <h2><a id="ShoppingCart" name="ShoppingCart"></a>管理购物车</h2>
+
+    <h4><a id="ShoppingCartAdd" name="ShoppingCartAdd"></a>添加和移除蛋糕</h4>
+
+    <p>
+      您可以通过点击蛋糕右侧的添加到购物车按钮来将蛋糕添加到购物车。此操作还会显示您的购物车。
+    </p>
+
+    <p>
+      您可以通过点击蛋糕左侧的移除按钮来移除蛋糕。
+    </p>
+
+    <p>
+      要继续购物，您可以从横幅下的列表中选择蛋糕类别。
+    </p>
+
+    <h4><a id="ShoppingCartUpdate" name="ShoppingCartUpdate"></a>更新蛋糕数量</h4>
+
+    <p>
+      您可以通过在购物车中的蛋糕数量字段中输入数量，然后点击更新按钮来调整蛋糕的数量。
+    </p>
+
+    <p>
+      如果请求的蛋糕数量大于库存数量，购物车中的库存字段将显示该蛋糕已被预定。
+    </p>
+
+    <h4><a id="Ordering" name="Ordering"></a>订购蛋糕</h4>
+
+    <p>
+      您可以通过选择进行结账按钮来订购购物车中的蛋糕。蛋糕店将显示购物车内容的只读列表。要继续结账，请点击继续按钮。
+    </p>
+
+    <p>
+      如果您尚未登录，应用程序将显示登录页面，您需要提供您的帐户名称和密码。否则，应用程序将显示一个请求付款和运输信息的页面。当您填写所需信息后，点击提交按钮，应用程序将显示包含您的账单和运输地址的只读页面。如果您需要更改任何信息，请点击浏览器的后退按钮并输入正确信息。要完成订单，请点击继续按钮。
+    </p>
+
+    <h2><a id="OrderReview" name="OrderReview"></a>查看订单</h2>
+
+    <p>
+      最终页面包含您的订单信息。
+    </p>
+
+    <p>
+      应用程序可以设置为发送订单的电子邮件确认。此选项只能在应用程序部署时设置。有关更多信息，请参阅安装说明。
+    </p>
+
+  </div>
+</body>
+</html>
