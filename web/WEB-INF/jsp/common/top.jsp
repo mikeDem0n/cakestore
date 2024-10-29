@@ -25,7 +25,7 @@
 
     <div id="Menu">
       <div id="MenuContent">
-        <a href="#"><img src="images/cart.png"/></a>
+        <a href="cartForm"><img src="images/cart.png"/></a>
         <img src="images/separator.gif"/>
         <a href="#">登录</a>
         <a href="#">登出</a>
