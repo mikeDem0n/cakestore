@@ -27,11 +27,16 @@
       <div id="MenuContent">
         <a href="cartForm"><img src="images/cart.png"/></a>
         <img src="images/separator.gif"/>
-        <a href="#">登录</a>
-        <a href="#">登出</a>
-        <img src="images/separator.gif"/>
-        <a href="#">我的账户</a>
-        <img src="images/separator.gif"/>
+        <c:if test="${sessionScope.loginAccount == null}">
+          <a href="signonForm">登录</a>
+          <img src="images/separator.gif"/>
+        </c:if>
+        <c:if test="${sessionScope.loginAccount !== null}">
+          <a href="#">登出</a>
+          <img src="images/separator.gif"/>
+          <a href="#">我的账户</a>
+          <img src="images/separator.gif"/>
+        </c:if>
         <a href="help.html">?</a>
       </div>
     </div>
