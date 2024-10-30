@@ -21,6 +21,7 @@
     </table>
 
     <%@ include file="includeAccount.jsp"%>
+    <%@ include file="verification.jsp"%>
 
     <input type="submit" name="newAccount" value="Save Account Information" />
 

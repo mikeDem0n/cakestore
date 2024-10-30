@@ -18,6 +18,7 @@
         </tr>
     </table>
     <%@ include file="includeAccount.jsp"%>
+    <%@ include file="verification.jsp"%>
 
     <input type="submit" name="editAccount" value="Save Account Information" />
     </form>
