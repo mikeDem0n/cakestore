@@ -31,18 +31,18 @@
     <div id="MainImage">
         <div id="MainImageContent">
             <map name="estoremap">
-                <area alt="Birds" coords="72,2,280,250"
-                      href="" shape="RECT" />
-                <area alt="Fish" coords="2,180,72,250"
-                      href="" shape="RECT" />
-                <area alt="Dogs" coords="60,250,130,320"
-                      href="" shape="RECT" />
-                <area alt="Reptiles" coords="140,270,210,340"
-                      href="" shape="RECT" />
-                <area alt="Cats" coords="225,240,295,310"
-                      href="" shape="RECT" />
-                <area alt="Birds" coords="280,180,350,250"
-                      href="" shape="RECT" />
+                <area alt="Bread" coords="72,2,280,250"
+                      href="categoryForm?categoryId=BREAD" shape="RECT" />
+                <area alt="Little" coords="2,180,72,250"
+                      href="categoryForm?categoryId=LITTLE" shape="RECT" />
+                <area alt="Birth" coords="60,250,130,320"
+                      href="categoryForm?categoryId=BIRTH" shape="RECT" />
+                <area alt="Custom" coords="140,270,210,340"
+                      href="categoryForm?categoryId=CUSTOM" shape="RECT" />
+                <area alt="Dessert" coords="225,240,295,310"
+                      href="categoryForm?categoryId=DESSERT" shape="RECT" />
+                <area alt="Bread" coords="280,180,350,250"
+                      href="categoryForm?categoryId=BREAD" shape="RECT" />
             </map>
             <img height="355" src="images/splash.gif" usemap="#estoremap" width="350" /></div>
     </div>

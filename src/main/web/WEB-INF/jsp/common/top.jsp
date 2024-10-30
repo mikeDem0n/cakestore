@@ -31,7 +31,7 @@
           <a href="signonForm">登录</a>
           <img src="images/separator.gif"/>
         </c:if>
-        <c:if test="${sessionScope.loginAccount !== null}">
+        <c:if test="${sessionScope.loginAccount != null}">
           <a href="#">登出</a>
           <img src="images/separator.gif"/>
           <a href="#">我的账户</a>
@@ -63,3 +63,4 @@
   </div>
 
 <div id="Content">
+</div>

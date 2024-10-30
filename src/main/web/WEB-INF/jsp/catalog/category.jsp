@@ -1,8 +1,8 @@
 <%@ include file="../common/top.jsp"%>
 
-<div id="BackLink"><stripes:link
-        beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean">
-  返回主菜单</stripes:link></div>
+<div id="BackLink">
+  <a href="mainFrom">Return to Main Menu</a>
+</div>
 
 <div id="Catalog">
 
