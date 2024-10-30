@@ -58,6 +58,8 @@
       <a href="#"><img src="images/birth.png" /></a>
       <img src="images/separator.gif" />
       <a href="#"><img src="images/custom.png" /></a>
+      <img src="images/separator.gif" />
+      <a href="#"><img src="images/dessert.png" /></a>
     </div>
 
   </div>

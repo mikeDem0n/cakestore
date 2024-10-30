@@ -192,11 +192,19 @@ th {
   width: 30%;
 }
 
-#MainImage {
-  float: left;
-  background:inherit;
-  text-align:center;
+.page-container {
+  display: flex;
+  justify-content: flex-end; /* 使内部元素居右 */
+}
+.map-container {
+  background: inherit;
+  text-align: center;
   width: 50%;
+}
+.map-container img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
 }
 
 #Catalog {
