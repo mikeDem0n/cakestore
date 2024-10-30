@@ -15,36 +15,37 @@
 <div id="Main">
     <div id="Sidebar">
         <div id="SidebarContent">
-            <a><img src="images/fish_icon.gif" /></a>
-            Saltwater, Freshwater <br />
-            <a><img src="images/dogs_icon.gif" /></a>
-            Various Breeds <br />
-            <a><img src="images/cats_icon.gif" /></a>
-            Various Breeds, Exotic Varieties <br />
-            <a><img src="images/reptiles_icon.gif" /></a>
-            Lizards, Turtles, Snakes <br />
-            <a><img src="images/birds_icon.gif" /></a>
-            Exotic Varieties
+            <a><img src="images/bread.png" /></a>
+            我们的面包每日新鲜出炉，外脆内软，带给您最质朴而温暖的口感体验。 <br />
+            <a><img src="images/little.png" /></a>
+            精致小蛋糕，每一口都是美味的艺术，完美搭配您的下午茶时光。<br />
+            <a><img src="images/birth.png" /></a>
+            为您的特别日子量身定制的生日蛋糕，甜蜜的滋味将为庆祝增添无限欢乐。<br />
+            <a><img src="images/custom.png" /></a>
+            无论是特别的口味还是独特的设计，我们的私人订制服务让每一个蛋糕都与众不同<br />
+            <a><img src="images/dessert.png" /></a>
+            精选高品质食材，打造出多款美味甜点，让每一次品尝都成为甜蜜的享受。<br/>
         </div>
     </div>
 
-    <div id="MainImage">
-        <div id="MainImageContent">
-            <map name="estoremap">
-                <area alt="Bread" coords="72,2,280,250"
-                      href="categoryForm?categoryId=BREAD" shape="RECT" />
-                <area alt="Little" coords="2,180,72,250"
-                      href="categoryForm?categoryId=LITTLE" shape="RECT" />
-                <area alt="Birth" coords="60,250,130,320"
-                      href="categoryForm?categoryId=BIRTH" shape="RECT" />
-                <area alt="Custom" coords="140,270,210,340"
-                      href="categoryForm?categoryId=CUSTOM" shape="RECT" />
-                <area alt="Dessert" coords="225,240,295,310"
-                      href="categoryForm?categoryId=DESSERT" shape="RECT" />
-                <area alt="Bread" coords="280,180,350,250"
-                      href="categoryForm?categoryId=BREAD" shape="RECT" />
-            </map>
-            <img height="355" src="images/splash.gif" usemap="#estoremap" width="350" /></div>
+    <div class="page-container">
+        <div class="map-container">
+            <a href="link_to_page1.html">
+                <img src="images/bread1.gif" alt="bread">
+            </a>
+            <a href="link_to_page2.html">
+                <img src="images/little1.gif" alt="little">
+            </a>
+            <a href="link_to_page3.html">
+                <img src="images/birth1.gif" alt="birth">
+            </a>
+            <a href="link_to_page4.html">
+                <img src="images/custom1.gif" alt="custom">
+            </a>
+            <a href="link_to_page4.html">
+                <img src="images/dessert1.gif" alt="dessert">
+            </a>
+        </div>
     </div>
 
     <div id="Separator">&nbsp;</div>
