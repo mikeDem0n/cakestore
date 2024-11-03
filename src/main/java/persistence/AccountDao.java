@@ -1,4 +1,6 @@
 package main.java.persistence;
+import main.java.domain.Account;
+
 
 public interface AccountDao {
     Account getAccountByUsername(String username);
@@ -11,9 +13,15 @@ public interface AccountDao {
 
     void insertSignon(Account account);
 
+    Account getAccountByUsernameAndPassword(String username, String password);
+
     void updateAccount(Account account);
 
     void updateProfile(Account account);
 
     void updateSignon(Account account);
+
+    void updateSignon(String username, String password);
+
+    void insertSignon(String username, String password);
 }

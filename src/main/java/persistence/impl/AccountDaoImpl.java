@@ -5,10 +5,8 @@ import main.java.persistence.AccountDao;
 import main.java.persistence.DBUtil;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class AccountDaoImpl implements AccountDao {
+public abstract class AccountDaoImpl implements AccountDao {
 
     // SQL Queries
     private static final String GET_ACCOUNT_BY_USERNAME =
