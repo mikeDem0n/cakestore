@@ -11,7 +11,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class AddItemToCartServlet extends HttpServlet {
+public class
+AddItemToCartServlet extends HttpServlet {
 
     private static final String CART_FORM = "cart.jsp";
 
