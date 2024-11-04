@@ -7,7 +7,6 @@
           <element id="module-output" name="cakestore" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="servlet-api" />
           <element id="library" level="project" name="jsp-api1" />
         </element>
       </element>

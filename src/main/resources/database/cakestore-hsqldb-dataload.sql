@@ -9,11 +9,11 @@ INSERT INTO account VALUES('ACID','acid@yourdomain.com','ABC', 'XYX', 'OK', '901
 INSERT INTO profile VALUES('j2ee','english','BREAD',1,1);
 INSERT INTO profile VALUES('ACID','english','LITTLE',1,1);
 
-INSERT INTO bannerdata VALUES ('BREAD','<image src="images/banner_bread.gif">');
-INSERT INTO bannerdata VALUES ('LITTLE','<image src="images/banner_little.gif">');
-INSERT INTO bannerdata VALUES ('BIRTH','<image src="images/banner_birth.gif">');
-INSERT INTO bannerdata VALUES ('CUSTOM','<image src="images/banner_custom.gif">');
-INSERT INTO bannerdata VALUES ('DESSERT','<image src="images/banner_dessert.gif">');
+INSERT INTO bannerdata VALUES ('BREAD','<image src="images/bread.png">');
+INSERT INTO bannerdata VALUES ('LITTLE','<image src="images/little.png">');
+INSERT INTO bannerdata VALUES ('BIRTH','<image src="images/birth.png">');
+INSERT INTO bannerdata VALUES ('CUSTOM','<image src="images/custom.png">');
+INSERT INTO bannerdata VALUES ('DESSERT','<image src="images/dessert.png">');
 
 INSERT INTO category VALUES ('BREAD','Bread','<image src="images/bread_icon.gif"><font size="5" color="blue"> Bread</font>');
 INSERT INTO category VALUES ('LITTLE','Little','<image src="images/little_icon.gif"><font size="5" color="blue"> Little</font>');
