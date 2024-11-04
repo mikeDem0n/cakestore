@@ -17,11 +17,6 @@
 <body>
   <div id="Header">
 
-    <div id="Logo">
-      <div id="LogoContent">
-        <a href="#"><img src="images/logo.png"/></a>
-      </div>
-    </div>
 
     <div id="Menu">
       <div id="MenuContent">
@@ -31,7 +26,7 @@
           <a href="signonForm">登录</a>
           <img src="images/separator.gif"/>
         </c:if>
-        <c:if test="${sessionScope.loginAccount !== null}">
+        <c:if test="${sessionScope.loginAccount != null}">
           <a href="#">登出</a>
           <img src="images/separator.gif"/>
           <a href="#">我的账户</a>
@@ -51,15 +46,15 @@
     </div>
 
     <div id="QuickLinks">
-      <a href="#"><img src="images/bread.png"/></a>
+      <a href="#"><img src="images/bannner_bread.png"/></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/little.png" /></a>
+      <a href="#"><img src="images/bannner_little.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/birth.png" /></a>
+      <a href="#"><img src="images/bannner_birth.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/custom.png" /></a>
+      <a href="#"><img src="images/bannner_custom.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/dessert.png" /></a>
+      <a href="#"><img src="images/bannner_dessert.png" /></a>
     </div>
 
   </div>

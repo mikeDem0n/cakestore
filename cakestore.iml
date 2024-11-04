@@ -21,6 +21,13 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="javaeeApplication" name="javaEEApplication">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/web/META-INF/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -29,8 +36,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jsp-api1" level="project" />
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="servlet-api" level="project" />
-    <orderEntry type="library" name="jsp-api1" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6 (2)" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6 (3)" level="project" />
   </component>
 </module>
