@@ -23,6 +23,10 @@ public class CartItem implements Serializable {
         return total;
     }
 
+    public void setTotal(BigDecimal total) {
+        this.total = total;
+    }
+
     public Item getItem() {
         return item;
     }
