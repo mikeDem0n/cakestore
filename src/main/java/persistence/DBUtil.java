@@ -3,21 +3,31 @@ package main.java.persistence;
 import java.sql.*;
 
 public class DBUtil {
-    public static final String DRIVER = "com.mysql.jdbc.Driver";
+    public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     public static final String URL = "jdbc:mysql://localhost:3306/cakestore";
     public static final String USERNAME = "root";
     public static final String PASSWORD = "1234";
     public static Connection getConnection() {
         Connection connection = null;
-        try{
+        try {
             Class.forName(DRIVER);
-            connection= DriverManager.getConnection(URL,USERNAME,PASSWORD);
-
-        }catch(Exception e){
+            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        } catch (ClassNotFoundException e) {
+            System.err.println("MySQL JDBC Driver not found.");
             e.printStackTrace();
+        } catch (SQLException e) {
+            System.err.println("Connection failed. Check output console.");
+            e.printStackTrace();
+        }
+        if (connection == null) {
+            System.err.println("Failed to establish connection. Connection object is null.");
+        } else {
+            System.out.println("Connection established successfully.");
         }
         return connection;
     }
+
+
     public static void closeConnection(Connection connection) {
         if(connection != null){
             try{
