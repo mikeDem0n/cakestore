@@ -10,9 +10,23 @@
 <html>
 
 <head>
+  <meta  charset="utf-8">
   <link rel="StyleSheet" href="css/cakestore.css" type="text/css"
         media="screen" />
   <title>cakestore</title>
+  <style>
+    #Header{
+      width:100%;
+    }
+    #QuickLinks .zi{
+      width: 100px;
+      height: 50px;
+    }
+    div {
+      display: inline-block;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <div id="Header">
@@ -20,7 +34,7 @@
 
     <div id="Menu">
       <div id="MenuContent">
-        <a href="cartForm"><img src="images/cart.png"/></a>
+        <a href="cartForm"><img src="images/cart.gif"/></a>
         <img src="images/separator.gif"/>
         <c:if test="${sessionScope.loginAccount == null}">
           <a href="signonForm">登录</a>
@@ -46,15 +60,15 @@
     </div>
 
     <div id="QuickLinks">
-      <a href="#"><img src="images/bannner_bread.png"/></a>
+      <a href="#"><img class="zi" src="images/bread.png"/></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/bannner_little.png" /></a>
+      <a href="#"><img class="zi" src="images/little.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/bannner_birth.png" /></a>
+      <a href="#"><img class="zi" src="images/birth.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/bannner_custom.png" /></a>
+      <a href="#"><img class="zi" src="images/custom.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img src="images/bannner_dessert.png" /></a>
+      <a href="#"><img class="zi" src="images/dessert.png" /></a>
     </div>
 
   </div>

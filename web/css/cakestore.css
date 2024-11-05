@@ -3,10 +3,13 @@
   padding: 0;
   user-select: none;
 }
-
+body{
+  width: 100%;
+}
 a {
   text-decoration: none;
-  font-family: "Bookshelf Symbol 7";
+  font-family: 'Microsoft YaHei', sans-serif;
+
 }
 
 a:hover {
@@ -18,7 +21,8 @@ a.Button, a.Button:link, a.Button:visited {
   color: #368;
   background-color: #005e21;
   text-decoration: none;
-  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
   font-size: 1.5ex;
 }
 
@@ -26,7 +30,8 @@ h1 {
   font-size: 80px;
   margin: 1ex 0ex 1ex 0ex;
   padding: 0ex;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
   line-height: 3ex;
   font-weight: 900;
   color: #666;
@@ -39,14 +44,16 @@ h2 {
   line-height: 2ex;
   font-weight: 700;
   color: #444;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
 }
  
 h3 {
   font-size: 40px;
   margin: 1ex 0ex 1ex 0ex;
   padding: 0ex;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
   line-height: 1.6ex;
   font-weight: 700;
   color: #222;
@@ -55,7 +62,8 @@ h3 {
 p {
   padding: 2ex;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
 }
  
 ul {
@@ -65,7 +73,8 @@ ul {
 li {
   font-size: 20px;
   color:#368;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
 
 }
 img {
@@ -91,7 +100,7 @@ th {
 }
 
 #Logo {
-  width: 33%;
+  width: 0;
   height: 9ex;
   border-width: 0ex 0ex .2ex 0px;
   border-style: solid;
@@ -104,7 +113,7 @@ th {
 }
 
 #Menu {
-  width: 33%;
+  width: 50%;
   height: 9ex;
   border-width: 0ex 0ex .2ex 0px;
   border-style: solid;
@@ -113,8 +122,8 @@ th {
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  font-family: helvetica, tahoma, arial, verdana, sans-serif;
-  text-align: center;
+  font-family: 'Microsoft YaHei', sans-serif;
+
   line-height: 9ex;
   voice-family: inherit;
 }
@@ -122,11 +131,21 @@ th {
 #Menu, #Menu a, #Menu a:link, #Menu a:visited, #Menu a:hover {
   color: #368;
   text-decoration: none;
-  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
+}
+#SidebarContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#SidebarContent img{
+  width: 200px;
+  height: 100px;
 }
 
 #Search {
-  width: 30%;
+  width: 50%;
   height: 9ex;
   border-width: 0ex 0ex .2ex 0px;
   border-style: solid;
@@ -140,7 +159,7 @@ th {
 }
 
 #PoweredBy {
-  width: 30%;
+  width: 31%;
   height: 9ex;
   border-width: .2ex 0ex .2ex 0px;
   border-style: solid;
@@ -178,6 +197,8 @@ th {
 }
 
 #Main {
+  height: 1000px;
+  width: 100%;
   padding: 1ex;
   color: #344;
   background-color: #FFF;
@@ -218,7 +239,8 @@ th {
   color: #fff;
   background-color: #005e21;
   text-decoration: none;
-  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-family: 'Microsoft YaHei', sans-serif;
+
   font-size: 1.5ex;
   border-width:0;
 }
