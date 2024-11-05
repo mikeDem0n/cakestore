@@ -41,9 +41,9 @@
           <img src="images/separator.gif"/>
         </c:if>
         <c:if test="${sessionScope.loginAccount != null}">
-          <a href="#">登出</a>
+          <a href="mainForm">登出</a>
           <img src="images/separator.gif"/>
-          <a href="#">我的账户</a>
+          <a href="accountForm">我的账户</a>
           <img src="images/separator.gif"/>
         </c:if>
         <a href="help.html">?</a>
@@ -60,15 +60,15 @@
     </div>
 
     <div id="QuickLinks">
-      <a href="#"><img class="zi" src="images/bread.png"/></a>
+      <a href="categoryForm?categoryId=BREAD"><img class="zi" src="images/bread.png"/></a>
       <img src="images/separator.gif" />
-      <a href="#"><img class="zi" src="images/little.png" /></a>
+      <a href="categoryForm?categoryId=LITTLE"><img class="zi" src="images/little.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img class="zi" src="images/birth.png" /></a>
+      <a href="categoryForm?categoryId=BIRTH"><img class="zi" src="images/birth.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img class="zi" src="images/custom.png" /></a>
+      <a href="categoryForm?categoryId=CUSTOM"><img class="zi" src="images/custom.png" /></a>
       <img src="images/separator.gif" />
-      <a href="#"><img class="zi" src="images/dessert.png" /></a>
+      <a href="categoryForm?categoryId=DESSERT"><img class="zi" src="images/dessert.png" /></a>
     </div>
 
   </div>

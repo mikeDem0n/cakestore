@@ -14,6 +14,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>AccountFormServlet</servlet-name>
+        <servlet-class>main.java.web.servlet.AccountFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountFormServlet</servlet-name>
+        <url-pattern>/accountForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>CategoryFormServlet</servlet-name>
         <servlet-class>main.java.web.servlet.CategoryFormServlet</servlet-class>
     </servlet>
