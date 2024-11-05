@@ -1,8 +1,8 @@
 <%@ include file="../common/top.jsp"%>
 
-<div id="BackLink"><stripes:link
-        beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean">
-  Return to Main Menu</stripes:link></div>
+<div id="BackLink"><a href="mainForm">
+  Return to Main Menu</a>
+</div>
 
 <div id="Catalog">
 
@@ -24,7 +24,7 @@
 
         <c:if test="${sessionScope.cart.numberOfItems == 0}">
           <tr>
-            <td colspan="8"><b>你的购物车是空的</b></td>
+            <td colspan="8"><b>Your cart is empty</b></td>
           </tr>
         </c:if>
 
@@ -46,7 +46,7 @@
             <td><fmt:formatNumber value="${cartItem.total}"
                                   pattern="$#,##0.00" /></td>
             <td>
-              <a href="removeItemFromCart?cartItem=${cartItem.item.itemId}" class="Button">移除</a>
+              <a href="removeItemFromCart?cartItem=${cartItem.item.itemId}" class="Button">remove</a>
             </td>
           </tr>
         </c:forEach>
@@ -61,7 +61,7 @@
       </table>
     </form>
     <c:if test="${sessionScope.cart.numberOfItems > 0}">
-      <a href="newOrderForm" class="Button">点击去结账</a>
+      <a href="newOrderForm" class="Button">click to pay</a>
     </c:if>
   </div>
 

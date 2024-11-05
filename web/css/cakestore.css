@@ -19,7 +19,7 @@ a:hover {
 a.Button, a.Button:link, a.Button:visited {
   padding: .3ex;
   color: #368;
-  background-color: #005e21;
+  background-color: rgba(94, 0, 25, 0.05);
   text-decoration: none;
   font-family: 'Microsoft YaHei', sans-serif;
 
@@ -91,7 +91,7 @@ td, th {
   text-align: left;
   border-width: 0;
   border-spacing: 0;
-  background-color: #336648;
+  background-color: #664A33FF;
 }
 
 th {

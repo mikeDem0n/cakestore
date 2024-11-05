@@ -1,8 +1,7 @@
 <%@ include file="../common/top.jsp"%>
 
-<div id="BackLink"><stripes:link
-        beanclass="org.mybatis.jpetstore.web.actions.CartActionBean">
-    返回购物车</stripes:link></div>
+<div id="BackLink"><a href="cartForm">
+    return to cart</a></div>
 
 <div id="Catalog">
 

@@ -1,9 +1,8 @@
 <%@ include file="../common/top.jsp"%>
 
-<div id="BackLink"><stripes:link
-        beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean">
+<div id="BackLink"><a href="mainForm">
     Return to Main Menu
-</stripes:link></div>
+</a></div>
 
 <div id="Catalog">Please confirm the information below and then
     press continue...
